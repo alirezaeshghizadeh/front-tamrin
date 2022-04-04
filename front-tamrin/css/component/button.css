@@ -1,0 +1,25 @@
+.btn{
+    --height: 40px;
+    height: var(--height);
+    border-radius: calc( var(--height) / 2 );
+    padding: 0 24px;
+    text-align: center;
+    /* min-width: 300px; */
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: calc( var(--height) - 2px );
+	border-color: transparent;
+}
+.btn > *{
+    vertical-align: middle;
+}
+.btn.primary{
+    background-color: var(--primary);
+    color: var(--on-primary);
+}
+.btn.primary i{
+    color: yellow;
+    font-size: 1.5em;
+}

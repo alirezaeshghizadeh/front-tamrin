@@ -1,0 +1,8 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+:root{
+    --primary: #6750A4;
+    --on-primary: #FFFFFF;
+}

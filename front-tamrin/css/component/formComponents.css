@@ -1,0 +1,6 @@
+@import url('button.css');
+
+*{
+    accent-color: var(--primary);
+    caret-color: var(--primary);
+}
